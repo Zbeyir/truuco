@@ -16,13 +16,13 @@ public class truuco_menu_checkStepDefinitions {
     @When("user is on the truuco Page")
     public void user_is_on_the_truuco_page() {
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-        //BrowserUtils.sleep(2);
+        BrowserUtils.sleep(2);
     }
 
     @When("user accept Cookies")
     public void user_accept_cookies() {
         basePage.denyCookies.click();
-        //BrowserUtils.sleep(2);
+        BrowserUtils.sleep(2);
     }
 
     @When("user click Menu Button")
