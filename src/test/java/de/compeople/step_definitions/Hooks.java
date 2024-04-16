@@ -1,10 +1,10 @@
-package com.truuco.step_definitions;
+package de.compeople.step_definitions;
 
 /*
 This class we will be able to pass pre- & post- conditions to each scenario and each step
  */
 
-import com.truuco.utilities.Driver;
+import de.compeople.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;

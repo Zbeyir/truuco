@@ -1,4 +1,4 @@
-package com.truuco.utilities;
+package de.compeople.utilities;
 
 import java.util.Set;
 

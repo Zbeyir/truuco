@@ -1,4 +1,4 @@
-package com.truuco.utilities;
+package de.compeople.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
